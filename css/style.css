@@ -303,6 +303,20 @@ template {
 [hidden] {
   display: none; }
 
+.button {
+  padding: 14px 37px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500; }
+  .button:hover {
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(255, 90, 60, 0.2); }
+  .button--primary {
+    background-color: #ff5a3c;
+    color: #ffffff; }
+
 .container {
   max-width: 85%;
   margin: auto; }
@@ -322,7 +336,7 @@ template {
   outline: 0 !important; }
 
 html {
-  font-size: 14px; }
+  font-size: 16px; }
 
 input::-moz-placeholder, textarea::-moz-placeholder {
   opacity: 1; }
@@ -330,13 +344,66 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 img {
   max-width: 100%; }
 
-header {
-  background: #55c1c5; }
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  padding: 31px 0; }
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 10rem; }
+  .logo__title {
+    margin-left: 0.8rem;
+    font-size: 1.86rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #38393b;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold; }
+    .logo__title:hover {
+      color: #ff5a3c; }
 
 .menu {
   display: flex;
   justify-content: space-between;
-  align-items: cetner; }
+  align-items: center; }
+
+.nav {
+  display: flex;
+  margin-right: 1rem; }
+  .nav__item {
+    display: block;
+    margin-left: 1.7rem;
+    font-size: 1.12rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #38393b;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300; }
+    .nav__item:hover::after {
+      content: '';
+      display: block;
+      position: relative;
+      max-width: 60%;
+      height: 2px;
+      background-color: #ff5a3c;
+      margin: 0 auto;
+      margin-top: 0.45rem; }
+
+.contacts__phone {
+  margin-right: 2.8125rem;
+  font-size: 1.23rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #38393b;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500; }
+  .contacts__phone:hover {
+    color: #ff5a3c; }
 
 .hero {
   position: relative;
