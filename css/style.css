@@ -324,7 +324,7 @@ template {
   color: #ff5a3c; }
 
 .container {
-  max-width: 65%;
+  max-width: 1280px;
   margin: auto; }
 
 .row {
@@ -401,7 +401,7 @@ img {
       margin-top: 0.45rem; }
 
 .contacts__phone {
-  margin-right: 2.7rem;
+  margin-right: 2rem;
   font-size: 1.23rem;
   text-decoration: none;
   text-transform: uppercase;
@@ -445,7 +445,6 @@ img {
   .hero__button {
     padding: 17px 45px; }
   .hero__image {
-    margin-top: -5rem;
     margin-left: -6rem; }
 
 .link {
@@ -465,3 +464,74 @@ img {
     margin-top: 2.1rem; }
     .link__item:hover {
       box-shadow: 0px 5px 15px rgba(255, 90, 60, 0.2); }
+
+@media screen and (max-width: 1480px) {
+  .link {
+    display: none; } }
+
+@media screen and (max-width: 1280px) {
+  html {
+    font-size: 12px; }
+  .container {
+    max-width: 85%; }
+  .hero__image {
+    margin-left: -10rem; } }
+
+@media screen and (max-width: 1155px) {
+  .logo {
+    margin-right: 5rem; }
+  .hero__text {
+    max-width: 450px; }
+  .hero__image {
+    margin-left: -20rem; } }
+
+@media screen and (max-width: 1025px) {
+  .logo {
+    margin-right: 0; }
+  .nav__item {
+    margin-right: 1rem; } }
+
+@media screen and (max-width: 992px) {
+  .nav {
+    display: none; }
+  .hero__image {
+    display: none; }
+  .hero__text {
+    max-width: 575px; } }
+
+@media screen and (max-width: 760px) {
+  .hero__text {
+    max-width: 400px; }
+  .hero__title {
+    width: 500px;
+    font-size: 3.5rem; }
+  .contacts {
+    margin-left: -10rem; } }
+
+@media screen and (max-width: 620px) {
+  .contacts__button {
+    display: none; } }
+
+@media screen and (max-width: 550px) {
+  .logo {
+    margin-left: -1rem; }
+    .logo__img {
+      width: 2.5rem;
+      height: 2.5rem; }
+    .logo__title {
+      font-size: 1.5rem;
+      margin-left: 0.5rem; }
+  .contacts {
+    margin-left: 2rem; }
+    .contacts__phone {
+      margin-right: 0; }
+  .hero__content {
+    margin-left: -1rem; }
+  .hero__text {
+    max-width: 280px; }
+  .hero__title {
+    width: 295px;
+    font-size: 2.25rem;
+    line-height: 4.3rem; }
+  .hero__button {
+    width: 295px; } }
