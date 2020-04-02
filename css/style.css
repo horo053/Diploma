@@ -510,7 +510,9 @@ img {
     margin-left: -10rem; }
   .information {
     padding-top: 0;
-    margin-top: -8rem; } }
+    margin-top: -8rem; }
+  .card {
+    margin-top: -10rem; } }
 
 @media screen and (max-width: 1155px) {
   .logo {
@@ -532,7 +534,13 @@ img {
   .hero__image {
     display: none; }
   .hero__text {
-    max-width: 575px; } }
+    max-width: 575px; }
+  .card {
+    margin-top: -10rem; }
+    .card__title {
+      font-size: 3rem; }
+    .card__text {
+      font-size: 1.1rem; } }
 
 @media screen and (max-width: 760px) {
   .hero__text {
@@ -541,11 +549,22 @@ img {
     width: 500px;
     font-size: 3.5rem; }
   .contacts {
-    margin-left: -10rem; } }
+    margin-left: -10rem; }
+  .card__title {
+    font-size: 3rem; }
+  .card__text {
+    font-size: 1rem; } }
 
 @media screen and (max-width: 620px) {
   .contacts__button {
-    display: none; } }
+    display: none; }
+  .card {
+    padding-bottom: 2rem;
+    padding-top: 2rem; }
+    .card__title {
+      font-size: 2rem; }
+    .card__text {
+      font-size: 0.9rem; } }
 
 @media screen and (max-width: 550px) {
   .logo {
@@ -569,4 +588,8 @@ img {
     font-size: 2.25rem;
     line-height: 4.3rem; }
   .hero__button {
-    width: 295px; } }
+    width: 295px; }
+  .card__title {
+    font-size: 1.5rem; }
+  .card__text {
+    font-size: 0.8rem; } }
