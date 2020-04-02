@@ -347,11 +347,14 @@ html {
 input::-moz-placeholder, textarea::-moz-placeholder {
   opacity: 1; }
 
+body {
+  background-image: url(../img/bg-image.png);
+  background-repeat: no-repeat; }
+
 img {
   max-width: 100%; }
 
 .header {
-  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
@@ -412,13 +415,13 @@ img {
     color: #ff5a3c; }
 
 .hero {
-  background-image: url(../img/bg-image.png);
-  background-repeat: no-repeat;
   position: relative;
   display: flex;
   flex-direction: column;
   padding-top: 8rem;
   height: 101vh; }
+  .hero__content {
+    margin-bottom: 5rem; }
   .hero__link {
     position: absolute;
     left: 0;
@@ -453,7 +456,7 @@ img {
   align-items: center;
   flex-direction: column;
   padding-left: 2rem;
-  margin-top: -7rem; }
+  margin-top: -3rem; }
   .link::before {
     content: '';
     display: block;
@@ -465,6 +468,35 @@ img {
     .link__item:hover {
       box-shadow: 0px 5px 15px rgba(255, 90, 60, 0.2); }
 
+.information {
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
+.card {
+  background-image: url(../img/bg-info.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  max-width: 73.0625rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  box-shadow: 0 0 20px 10px rgba(56, 57, 59, 0.05);
+  margin: auto; }
+  .card__title {
+    font-size: 3.875rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #ff5a3c;
+    margin-bottom: 0; }
+  .card__text {
+    font-size: 1.365rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #38393b;
+    margin-top: 1rem; }
+
 @media screen and (max-width: 1480px) {
   .link {
     display: none; } }
@@ -475,7 +507,10 @@ img {
   .container {
     max-width: 85%; }
   .hero__image {
-    margin-left: -10rem; } }
+    margin-left: -10rem; }
+  .information {
+    padding-top: 0;
+    margin-top: -8rem; } }
 
 @media screen and (max-width: 1155px) {
   .logo {
@@ -485,7 +520,7 @@ img {
   .hero__image {
     margin-left: -20rem; } }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1080px) {
   .logo {
     margin-right: 0; }
   .nav__item {
