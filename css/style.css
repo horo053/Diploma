@@ -307,15 +307,15 @@ template {
   padding: 14px 37px;
   border: none;
   border-radius: 50px;
-  font-size: 1.1rem;
-  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 500; }
   .button:hover {
     cursor: pointer; }
   .button--primary {
     background-color: #ff5a3c;
     color: #ffffff;
-    padding: 14px 37px;
+    padding: 13px 30px;
     transition: box-shadow 0.3s; }
     .button--primary:hover {
       box-shadow: 0px 5px 15px rgba(255, 90, 60, 0.2); }
@@ -366,12 +366,12 @@ img {
   align-items: center;
   margin-right: 10rem; }
   .logo__title {
-    margin-left: 1.2rem;
-    font-size: 1.86rem;
+    margin-left: 1rem;
+    font-size: 1.65rem;
     text-decoration: none;
     text-transform: uppercase;
     color: #38393b;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-weight: bold; }
     .logo__title:hover {
       color: #ff5a3c; }
@@ -383,18 +383,18 @@ img {
 
 .nav {
   display: flex;
-  margin-left: 3.5rem; }
+  margin-left: -3.3rem; }
   .nav__item {
     display: block;
-    margin-right: 1.7rem;
-    font-size: 1.12rem;
+    margin-right: 1.8rem;
+    font-size: 1rem;
     text-decoration: none;
     text-transform: uppercase;
     color: #38393b;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-weight: 300; }
     .nav__item:hover::after {
-      content: '';
+      content: "";
       display: block;
       position: relative;
       max-width: 60%;
@@ -405,11 +405,11 @@ img {
 
 .contacts__phone {
   margin-right: 2rem;
-  font-size: 1.23rem;
+  font-size: 1.11rem;
   text-decoration: none;
   text-transform: uppercase;
   color: #38393b;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 500; }
   .contacts__phone:hover {
     color: #ff5a3c; }
@@ -430,24 +430,25 @@ img {
     font-weight: bold; }
   .hero__title {
     width: 700px;
-    font-size: 3.95rem;
-    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.55rem;
+    font-family: "Ubuntu", sans-serif;
     font-weight: bold;
-    line-height: 5.3rem;
+    line-height: 4.8rem;
     color: #38393b;
-    margin-bottom: 2rem; }
+    margin-bottom: 2.35rem; }
   .hero__text {
-    width: 575px;
+    width: 565px;
     font-size: 1.25rem;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-weight: 300;
     line-height: 1.8125rem;
     color: #38393b;
-    margin-bottom: 3rem; }
+    margin-bottom: 2.4rem; }
   .hero__button {
-    padding: 17px 45px; }
+    padding: 15px 40px; }
   .hero__image {
-    margin-left: -6rem; }
+    margin-left: -7rem;
+    margin-top: -5rem; }
 
 .link {
   display: flex;
@@ -457,7 +458,7 @@ img {
   padding-left: 2rem;
   margin-top: -10rem; }
   .link::before {
-    content: '';
+    content: "";
     display: block;
     width: 4px;
     height: 43.125rem;
@@ -479,20 +480,20 @@ img {
   justify-content: space-evenly;
   text-align: center;
   max-width: 73.0625rem;
-  padding-bottom: 4rem;
-  padding-top: 2.5rem;
+  padding-bottom: 4.5rem;
+  padding-top: 5rem;
   box-shadow: 0 0 20px 10px rgba(56, 57, 59, 0.05);
   margin: auto;
   margin-top: -5rem; }
   .card__title {
-    font-size: 3.875rem;
-    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.7rem;
+    font-family: "Ubuntu", sans-serif;
     font-weight: bold;
     color: #ff5a3c;
     margin-bottom: 0; }
   .card__text {
-    font-size: 1.365rem;
-    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+    font-family: "Ubuntu", sans-serif;
     font-weight: bold;
     color: #38393b;
     margin-top: 1rem; }
@@ -500,64 +501,73 @@ img {
 @media screen and (max-width: 1480px) {
   .link {
     display: none; } }
-
 @media screen and (max-width: 1280px) {
   html {
     font-size: 12px; }
+
   .container {
     max-width: 85%; }
+
   .hero__image {
-    margin-left: -10rem; }
+    margin-left: -5rem; }
+  .hero__title {
+    width: 600px; }
+  .hero__text {
+    width: 500px; }
+
   .information {
     padding-top: 0;
     margin-top: -8rem; }
+
   .card {
     margin-top: -10rem; } }
-
 @media screen and (max-width: 1155px) {
   .logo {
     margin-right: 5rem; }
+
   .hero__text {
     max-width: 450px; }
   .hero__image {
-    margin-left: -20rem; } }
-
+    margin-left: -10rem; } }
 @media screen and (max-width: 1080px) {
   .logo {
     margin-right: 0; }
+
   .nav__item {
     margin-right: 1rem; } }
-
 @media screen and (max-width: 992px) {
   .nav {
     display: none; }
+
   .hero__image {
     display: none; }
   .hero__text {
     max-width: 575px; }
+
   .card {
     margin-top: -10rem; }
     .card__title {
       font-size: 3rem; }
     .card__text {
       font-size: 1.1rem; } }
-
 @media screen and (max-width: 760px) {
   .hero__text {
-    max-width: 400px; }
+    max-width: 500px; }
   .hero__title {
     width: 500px;
     font-size: 3.5rem; }
+
   .contacts {
     margin-left: -10rem; }
+
   .card__title {
     font-size: 3rem; }
   .card__text {
     font-size: 1rem; } }
-
 @media screen and (max-width: 620px) {
   .contacts__button {
     display: none; }
+
   .card {
     padding-bottom: 2rem;
     padding-top: 2rem; }
@@ -565,7 +575,6 @@ img {
       font-size: 2rem; }
     .card__text {
       font-size: 0.9rem; } }
-
 @media screen and (max-width: 550px) {
   .logo {
     margin-left: -1rem; }
@@ -575,10 +584,12 @@ img {
     .logo__title {
       font-size: 1.5rem;
       margin-left: 0.5rem; }
+
   .contacts {
     margin-left: 2rem; }
     .contacts__phone {
       margin-right: 0; }
+
   .hero__content {
     margin-left: -1rem; }
   .hero__text {
@@ -589,7 +600,10 @@ img {
     line-height: 4.3rem; }
   .hero__button {
     width: 295px; }
+
   .card__title {
     font-size: 1.5rem; }
   .card__text {
     font-size: 0.8rem; } }
+
+/*# sourceMappingURL=style.css.map */
