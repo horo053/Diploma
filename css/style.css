@@ -473,6 +473,9 @@ img {
   padding-bottom: 3rem; }
 
 .card {
+  position: relative;
+  z-index: 80;
+  background-color: #ffffff;
   background-image: url(../img/bg-info.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -481,10 +484,10 @@ img {
   text-align: center;
   max-width: 73.0625rem;
   padding-bottom: 4.5rem;
-  padding-top: 5rem;
-  box-shadow: 0 0 20px 10px rgba(56, 57, 59, 0.05);
+  padding-top: 4rem;
   margin: auto;
-  margin-top: -5rem; }
+  margin-top: -7rem;
+  box-shadow: 0 0 20px 10px rgba(56, 57, 59, 0.05); }
   .card__title {
     font-size: 3.7rem;
     font-family: "Ubuntu", sans-serif;
@@ -497,6 +500,25 @@ img {
     font-weight: bold;
     color: #38393b;
     margin-top: 1rem; }
+
+.video {
+  display: flex;
+  background: #38393b url("../img/video-bg.jpg") no-repeat;
+  margin: auto;
+  margin-bottom: 2rem;
+  margin-top: -12rem;
+  height: 31rem; }
+  .video::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 31rem;
+    background-color: rgba(0, 0, 0, 0.1); }
+  .video__icon {
+    position: relative;
+    margin: auto; }
+    .video__icon:hover {
+      cursor: pointer; }
 
 @media screen and (max-width: 1480px) {
   .link {
