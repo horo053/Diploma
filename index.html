@@ -6,6 +6,7 @@
   <title>SAYTSPB</title>
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
   <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -45,7 +46,7 @@
       <div class="container">
         <div class="row">
           <div class="hero__content">
-            <h1 class="title hero__title">Продвижение Сайтов <span class="title--primary">в&nbsp;Санкт-Петербурге</span></h1>
+            <h1 class="hero__title">Продвижение Сайтов <span class="hero__title--primary">в&nbsp;Санкт-Петербурге</span></h1>
             <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
             <div>
               <button class="button hero__button button--primary" data-toggle="modal">Обратный звонок</button>
@@ -94,13 +95,67 @@
     <section class="video">
       <div class="container">
         <div class="video__play" id="player">
-          <img src="img/play.png" alt="play icon" class="video__icon">
+          <a data-fancybox href="https://www.youtube.com/watch?v=vCd2kEA9Dv0" class="video__icon"><img src="img/play.png" alt="play icon" class="video__img"></a>
         </div>
+        <!-- /."video__play -->
       </div>
       <!-- /.container -->
     </section>
     <!-- /.video -->
+    <section class="advantages">
+      <div class="container">
+        <div class="title advantages__title">
+          <h1 class="title__main">Наши Преимущества</h1>
+          <p class="title__text">Профессиональный подход - расплывчатая формулировка, которой давно не принято доверять. Лучший способ рекламы - благоприятные отзывы заказчиков и практические примеры работ, которые представлены ниже.</p>
+        </div>
+        <!-- /.title advantages__title -->
+        <div class="advantages__card">
+          <div class="advantages__card-item">
+            <img src="img/advantages/work.png" alt="" class="advantages__card-img">
+            <h3 class="advantages__card-title">Работа без предоплаты</h3>
+            <p class="advantages__card-text">Оплата исключительно по факту результатов месячного сотрудничества.</p>
+          </div>
+          <!-- /.advantages__card-item -->
+          <div class="advantages__card-item">
+            <img src="img/advantages/human.png" alt="" class="advantages__card-img">
+            <h3 class="advantages__card-title">Идивидуальный подход</h3>
+            <p class="advantages__card-text">Возможность сотрудничества по типовым алгоритмам или с совместной разработкой индивидуального проекта SEO-продвижения.</p>
+          </div>
+          <!-- /.advantages__card-item -->
+          <div class="advantages__card-item">
+            <img src="img/advantages/list.png" alt="" class="advantages__card-img">
+            <h3 class="advantages__card-title">Готовые решения</h3>
+            <p class="advantages__card-text">Готовые решения для различных ресурсов, от узкоспециализированных торговых площадок до масштабных коммерческих проектов.</p>
+          </div>
+          <!-- /.advantages__card-item -->
+          <div class="advantages__card-item">
+            <img src="img/advantages/analysis.png" alt="" class="advantages__card-img">
+            <h3 class="advantages__card-title">Глубокий анализ</h3>
+            <p class="advantages__card-text">Глубокий анализ целевой аудитории и статегии развития прямых конкурентов.</p>
+          </div>
+          <!-- /.advantages__card-item -->
+          <div class="advantages__card-item">
+            <img src="img/advantages/resource.png" alt="" class="advantages__card-img">
+            <h3 class="advantages__card-title">Актуализация ресурса</h3>
+            <p class="advantages__card-text">Актуализация ресурса по мере корректировки поисковых алгоритмов.</p>
+          </div>
+          <!-- /.advantages__card-item -->
+          <div class="advantages__card-item">
+            <img src="img/advantages/report.png" alt="" class="advantages__card-img">
+            <h3 class="advantages__card-title">Ежемесячные отчеты</h3>
+            <p class="advantages__card-text">Ежемесячные отчёты о предпринятых усилиях и практических результатах.</p>
+          </div>
+          <!-- /.advantages__card-item -->
+        </div>
+        <!-- /.advantages__card -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.advantages -->
   </main>
   <!-- /main --> 
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

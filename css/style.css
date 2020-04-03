@@ -320,8 +320,26 @@ template {
     .button--primary:hover {
       box-shadow: 0px 5px 15px rgba(255, 90, 60, 0.2); }
 
-.title--primary {
+.hero__title--primary {
   color: #ff5a3c; }
+
+.title {
+  margin: auto;
+  text-align: center;
+  width: 50rem; }
+  .title__main {
+    font-size: 2.625rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    color: #38393b;
+    margin-bottom: 1.68rem; }
+  .title__text {
+    font-size: 1rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: normal;
+    color: #38393b;
+    margin-top: 0;
+    line-height: 1.375rem; }
 
 .container {
   max-width: 1280px;
@@ -503,7 +521,7 @@ img {
 
 .video {
   display: flex;
-  background: #38393b url("../img/video-bg.jpg") no-repeat;
+  background: #38393b url("../img/video-bg.jpg") no-repeat center/cover;
   margin: auto;
   margin-bottom: 2rem;
   margin-top: -12rem;
@@ -519,6 +537,35 @@ img {
     margin: auto; }
     .video__icon:hover {
       cursor: pointer; }
+
+.advantages {
+  margin-top: 5rem; }
+  .advantages__title {
+    margin-bottom: 3.8rem; }
+  .advantages__card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .advantages__card-item {
+      text-align: center;
+      width: 25%;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      margin-bottom: 2.3rem; }
+    .advantages__card-title {
+      margin-top: 0.8rem;
+      margin-bottom: 0.78rem;
+      font-size: 1.25rem;
+      font-family: "Ubuntu", sans-serif;
+      font-weight: bold;
+      color: #38393b; }
+    .advantages__card-text {
+      margin-top: 0;
+      font-size: 0.98rem;
+      font-family: "Ubuntu", sans-serif;
+      font-weight: normal;
+      color: #38393b;
+      line-height: 1.375rem; }
 
 @media screen and (max-width: 1480px) {
   .link {
@@ -585,7 +632,13 @@ img {
   .card__title {
     font-size: 3rem; }
   .card__text {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+
+  .advantages__card-item {
+    width: 35%; }
+
+  .title {
+    width: 40rem; } }
 @media screen and (max-width: 620px) {
   .contacts__button {
     display: none; }
@@ -596,7 +649,13 @@ img {
     .card__title {
       font-size: 2rem; }
     .card__text {
-      font-size: 0.9rem; } }
+      font-size: 0.9rem; }
+
+  .video {
+    margin-top: -9rem; }
+    .video__img {
+      width: 5rem;
+      height: 5rem; } }
 @media screen and (max-width: 550px) {
   .logo {
     margin-left: -1rem; }
@@ -626,6 +685,27 @@ img {
   .card__title {
     font-size: 1.5rem; }
   .card__text {
-    font-size: 0.8rem; } }
+    font-size: 0.8rem; }
+
+  .advantages__card {
+    justify-content: center; }
+    .advantages__card-item {
+      width: 50%; }
+
+  .title {
+    width: 30rem; } }
+@media screen and (max-width: 450px) {
+  .video {
+    height: 20rem; }
+    .video::before {
+      height: 20rem; }
+
+  .advantages__card {
+    justify-content: center; }
+    .advantages__card-item {
+      width: 70%; }
+
+  .title {
+    width: 20rem; } }
 
 /*# sourceMappingURL=style.css.map */

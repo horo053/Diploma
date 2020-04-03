@@ -60,6 +60,12 @@
       font-size: 3rem
     &__text
       font-size: 1rem
+  .advantages
+    &__card
+      &-item
+        width: 35%
+  .title
+    width: 40rem
 @media screen and ( max-width: 620px )
   .contacts
     &__button
@@ -71,6 +77,11 @@
       font-size: 2rem
     &__text
       font-size: 0.9rem
+  .video
+    margin-top: -9rem
+    &__img
+      width: 5rem
+      height: 5rem
 @media screen and ( max-width: 550px )
   .logo
     margin-left: -1rem
@@ -100,3 +111,22 @@
       font-size: 1.5rem
     &__text
       font-size: 0.8rem
+  .advantages
+    &__card
+      justify-content: center
+      &-item
+        width: 50%
+  .title
+    width: 30rem
+@media screen and ( max-width: 450px )
+  .video
+    height: 20rem
+    &::before
+      height: 20rem
+  .advantages
+    &__card
+      justify-content: center
+      &-item
+        width: 70%
+  .title
+    width: 20rem
