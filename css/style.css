@@ -567,6 +567,46 @@ img {
       color: #38393b;
       line-height: 1.375rem; }
 
+.services {
+  background-image: url(../img/services/bg-services.png);
+  background-repeat: no-repeat;
+  background-position: 50% 90%/cover;
+  margin-top: 3.3rem;
+  padding-bottom: 5rem; }
+  .services__title {
+    margin-bottom: 3.5rem; }
+  .services__card {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap; }
+    .services__card-item {
+      width: 27.5%;
+      padding: 2.3rem 1.8rem;
+      margin-left: 2.33rem;
+      margin-right: 2.33rem;
+      margin-bottom: 2.3rem;
+      border: 1px solid #c9c8c8;
+      border-radius: 5px;
+      background-color: #ffffff; }
+      .services__card-item:hover {
+        cursor: pointer;
+        border: none;
+        border-bottom: 5px solid #ff5a3c;
+        box-shadow: 0 0 20px 10px rgba(56, 57, 59, 0.05); }
+    .services__card-title {
+      margin-top: 1.2rem;
+      margin-bottom: 1.5rem;
+      font-size: 1.625rem;
+      font-family: "Ubuntu", sans-serif;
+      font-weight: 500;
+      color: #38393b; }
+    .services__card-text {
+      font-size: 1rem;
+      font-family: "Ubuntu", sans-serif;
+      font-weight: 300;
+      color: #38393b;
+      line-height: 1.583rem; }
+
 @media screen and (max-width: 1480px) {
   .link {
     display: none; } }
@@ -597,7 +637,11 @@ img {
   .hero__text {
     max-width: 450px; }
   .hero__image {
-    margin-left: -10rem; } }
+    margin-left: -10rem; }
+
+  .services__card-item {
+    margin-left: 2rem;
+    margin-right: 2rem; } }
 @media screen and (max-width: 1080px) {
   .logo {
     margin-right: 0; }
@@ -618,7 +662,12 @@ img {
     .card__title {
       font-size: 3rem; }
     .card__text {
-      font-size: 1.1rem; } }
+      font-size: 1.1rem; }
+
+  .services__card {
+    justify-content: space-around; }
+    .services__card-item {
+      width: 40%; } }
 @media screen and (max-width: 760px) {
   .hero__text {
     max-width: 500px; }
@@ -693,7 +742,12 @@ img {
       width: 50%; }
 
   .title {
-    width: 30rem; } }
+    width: 30rem; }
+
+  .services__card {
+    justify-content: center; }
+    .services__card-item {
+      width: 70%; } }
 @media screen and (max-width: 450px) {
   .video {
     height: 20rem; }
