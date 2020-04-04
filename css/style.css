@@ -792,16 +792,17 @@ img {
 
 .news {
   margin-bottom: 2rem;
+  margin-top: 5.5rem;
   background-color: #eefdea;
-  padding-top: 4.25rem;
-  padding-bottom: 5.75rem; }
+  padding-top: 1rem;
+  padding-bottom: 5rem; }
   .news__slider {
     display: flex;
     flex-wrap: wrap;
     margin-top: 2.5rem;
     margin-left: 4.5%; }
   .news__calendar {
-    background: #38393b url(../img/news/bg-news.jpg) no-repeat center;
+    background: #38393b url(../img/news/bg-news.jpg) no-repeat center/cover;
     width: 49.9375rem;
     height: 28.75rem;
     padding-top: 1.5rem; }
@@ -864,6 +865,7 @@ img {
       margin-left: 3.8%;
       background: url(../img/news/prev.png) no-repeat center; }
     .news__button-next {
+      left: 8.5rem;
       background: url(../img/news/next.png) no-repeat center; }
 
 @media screen and (max-width: 1480px) {
@@ -895,7 +897,23 @@ img {
 
   .cases__slide {
     width: 70rem;
-    background-position: -80% 10%; } }
+    background-position: -80% 10%; }
+
+  .news__info {
+    left: -15%;
+    margin-top: 20%; }
+  .news__button-prev, .news__button-next {
+    width: 4.5rem; }
+  .news__button-next {
+    left: 10rem; } }
+@media screen and (max-width: 1245px) {
+  .news__info {
+    left: 50%;
+    margin-top: -15%; }
+  .news__button-prev, .news__button-next {
+    width: 4.5rem; }
+  .news__button-next {
+    left: 10rem; } }
 @media screen and (max-width: 1155px) {
   .logo {
     margin-right: 5rem; }
@@ -925,7 +943,13 @@ img {
     margin-top: 0;
     text-align: center; }
     .cases__right-title {
-      width: 100%; } }
+      width: 100%; }
+
+  .news__calendar {
+    width: 40rem; }
+  .news__info {
+    left: 40%;
+    margin-top: -15%; } }
 @media screen and (max-width: 992px) {
   .nav {
     display: none; }
@@ -960,7 +984,19 @@ img {
     width: 45rem; }
 
   .reviews__slide {
-    width: 45rem; } }
+    width: 45rem; }
+
+  .news__info {
+    width: 27rem;
+    height: 25rem;
+    left: -20%;
+    margin-top: 20%; } }
+@media screen and (max-width: 989px) {
+  .news__info {
+    width: 27rem;
+    height: 25rem;
+    left: 40%;
+    margin-top: -20%; } }
 @media screen and (max-width: 760px) {
   .hero__text {
     max-width: 500px; }
@@ -996,7 +1032,18 @@ img {
   .reviews {
     background-position: 80% 100%; }
     .reviews__slide {
-      width: 30rem; } }
+      width: 30rem; }
+
+  .news__calendar {
+    width: 30rem;
+    height: 19rem; }
+  .news__info {
+    width: 25rem;
+    height: 25rem;
+    left: 35%;
+    margin-top: -20%; }
+  .news__button {
+    padding: 16px 75px; } }
 @media screen and (max-width: 620px) {
   .contacts__button {
     display: none; }
@@ -1018,7 +1065,22 @@ img {
   .cases__slide {
     width: 30rem; }
   .cases__right-img {
-    width: 300px; } }
+    width: 300px; }
+
+  .news__slider {
+    padding-bottom: 5rem; }
+  .news__calendar {
+    display: none; }
+  .news__info {
+    width: 30rem;
+    height: 23rem;
+    left: 10%;
+    margin-top: 0; }
+  .news__button {
+    padding: 16px 35px; }
+    .news__button-prev, .news__button-next {
+      top: 90%;
+      margin-left: 31%; } }
 @media screen and (max-width: 550px) {
   .logo {
     margin-left: -1rem; }
@@ -1077,7 +1139,19 @@ img {
     margin-top: 2rem;
     width: 20rem; }
   .reviews__text {
-    font-size: 1.1rem; } }
+    font-size: 1.1rem; }
+
+  .news__slider {
+    padding-bottom: 5rem; }
+  .news__info {
+    width: 25rem;
+    height: 25rem;
+    left: 9%;
+    margin-top: 0; }
+  .news__button {
+    width: 100%; }
+    .news__button-prev, .news__button-next {
+      margin-left: 28%; } }
 @media screen and (max-width: 450px) {
   .video {
     height: 20rem; }
@@ -1112,6 +1186,27 @@ img {
   .reviews__slide {
     width: 17rem; }
   .reviews__text {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+
+  .news__slider {
+    padding-bottom: 6rem; }
+  .news__calendar {
+    display: none; }
+  .news__info {
+    width: 21rem;
+    height: 30rem;
+    left: 0;
+    margin: auto;
+    margin-top: 0;
+    box-shadow: none; }
+  .news__button {
+    width: 100%; }
+    .news__button-prev, .news__button-next {
+      top: 95%;
+      margin-left: 25%; } }
+@media screen and (max-width: 360px) {
+  .news__button-prev, .news__button-next {
+    top: 95%;
+    margin-left: 20%; } }
 
 /*# sourceMappingURL=style.css.map */

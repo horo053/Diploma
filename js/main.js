@@ -8,6 +8,4 @@ $(document).ready(function () {
     },
   })
 
-  var next = $('.news__button-next');
-  next.css('left', '8.5rem')
 });
