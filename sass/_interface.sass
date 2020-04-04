@@ -35,6 +35,12 @@
     color: $secondary
     margin-top: 0
     line-height: 1.375rem
+  &__href
+    text-decoration: none
+    color: $orange
+    border-bottom: 1px solid $orange
+    &:hover
+      border-bottom: none
 .input
   background-color: transparent
   border: none
@@ -49,3 +55,11 @@
       color: $dark
 .label
   display: block
+.swiper
+  &-button
+    &-prev
+      &::after
+        color: $gray
+    &-next
+      &::after
+        color: $gray
