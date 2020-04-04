@@ -682,7 +682,9 @@ img {
     padding-top: 1.45rem;
     padding-bottom: 1.5rem;
     width: 60.375rem;
-    box-shadow: 0 0 20px 10px rgba(56, 57, 59, 0.05); }
+    box-shadow: 0 0 20px 10px rgba(56, 57, 59, 0.05);
+    background: url(../img/cases/bg-cases.svg) no-repeat;
+    background-position: -30% 10%; }
     .cases__slide-title {
       width: 100%;
       margin-bottom: 2.7rem;
@@ -769,7 +771,8 @@ img {
     width: 25rem; }
 
   .cases__slide {
-    width: 70rem; } }
+    width: 70rem;
+    background-position: -80% 10%; } }
 @media screen and (max-width: 1155px) {
   .logo {
     margin-right: 5rem; }
@@ -791,7 +794,8 @@ img {
 
   .cases__slide {
     justify-content: center;
-    width: 55rem; }
+    width: 55rem;
+    background: none; }
   .cases__left {
     text-align: center; }
   .cases__right {
