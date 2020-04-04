@@ -766,7 +766,10 @@ img {
     margin-top: -10rem; }
 
   .cost__form {
-    width: 25rem; } }
+    width: 25rem; }
+
+  .cases__slide {
+    width: 70rem; } }
 @media screen and (max-width: 1155px) {
   .logo {
     margin-right: 5rem; }
@@ -784,7 +787,18 @@ img {
     margin-right: 0; }
 
   .nav__item {
-    margin-right: 1rem; } }
+    margin-right: 1rem; }
+
+  .cases__slide {
+    justify-content: center;
+    width: 55rem; }
+  .cases__left {
+    text-align: center; }
+  .cases__right {
+    margin-top: 0;
+    text-align: center; }
+    .cases__right-title {
+      width: 100%; } }
 @media screen and (max-width: 992px) {
   .nav {
     display: none; }
@@ -813,7 +827,10 @@ img {
     background-color: #ffffff; }
   .cost__form {
     width: 80%;
-    margin: auto; } }
+    margin: auto; }
+
+  .cases__slide {
+    width: 45rem; } }
 @media screen and (max-width: 760px) {
   .hero__text {
     max-width: 500px; }
@@ -838,7 +855,13 @@ img {
   .cost__card {
     width: 40rem;
     background: transparent;
-    background-color: #ffffff; } }
+    background-color: #ffffff; }
+
+  .cases__slide {
+    width: 35rem; }
+  .cases__right-img {
+    margin-left: 0;
+    width: 400px; } }
 @media screen and (max-width: 620px) {
   .contacts__button {
     display: none; }
@@ -855,7 +878,12 @@ img {
     margin-top: -9rem; }
     .video__img {
       width: 5rem;
-      height: 5rem; } }
+      height: 5rem; }
+
+  .cases__slide {
+    width: 30rem; }
+  .cases__right-img {
+    width: 300px; } }
 @media screen and (max-width: 550px) {
   .logo {
     margin-left: -1rem; }
@@ -903,7 +931,12 @@ img {
   .cost__card {
     width: 30rem;
     padding-top: 2.5rem;
-    padding-bottom: 3.5rem; } }
+    padding-bottom: 3.5rem; }
+
+  .cases__slide {
+    width: 26rem; }
+  .cases__right-img {
+    width: 250px; } }
 @media screen and (max-width: 450px) {
   .video {
     height: 20rem; }
@@ -924,6 +957,15 @@ img {
     padding-bottom: 3rem; }
   .cost__button {
     padding: 15px 55px;
-    margin-top: 2.5rem; } }
+    margin-top: 2.5rem; }
+
+  .cases__slide {
+    width: 18rem; }
+  .cases__right-img {
+    width: 220px; }
+  .cases__left {
+    margin-right: 2rem; }
+  .cases__item {
+    font-size: 1rem; } }
 
 /*# sourceMappingURL=style.css.map */
