@@ -1,0 +1,75 @@
+.news
+  margin-bottom: 2rem
+  background-color: $mint
+  padding-top: 4.25rem
+  padding-bottom: 5.75rem
+  &__slider
+    display: flex
+    flex-wrap: wrap
+    margin-top: 2.5rem
+    margin-left: 4.5%
+  &__calendar
+    background: $secondary url(../img/news/bg-news.jpg) no-repeat center
+    width: 49.9375rem
+    height: 28.75rem
+    padding-top: 1.5rem
+  &__data
+    position: relative
+    background: $orange
+    color: $light
+    width: 3.5rem
+    text-align: center
+    border-radius: 5px
+    padding-top: 0.7rem
+    padding-bottom: 1rem
+    margin-left: 1.4rem
+  &__number
+    font-size: 1.25rem
+    font-family: 'Ubuntu', sans-serif
+    font-weight: bold
+    margin-top: 0
+    margin-bottom: 0
+  &__month
+    font-size: 0.875rem
+    font-family: 'Ubuntu', sans-serif
+    font-weight: 400
+    margin-top: 0
+    margin-bottom: 0
+  &__info
+    position: relative
+    width: 34.375rem
+    height: 21.1875rem
+    background: $light
+    padding-top: 0.8rem
+    padding-left: 2.4375rem
+    padding-right: 3rem
+    border-radius: 5px
+    box-shadow: 0 0 20px 10px rgba($secondary, 0.05)
+    left: 50.5%
+    margin-top: -17.7%
+    margin-bottom: 1rem
+  &__title
+    font-size: 1.25rem
+    font-family: 'Ubuntu', sans-serif
+    font-weight: 500
+    color: $dark
+    margin-bottom: 1.5rem
+  &__text
+    font-size: 1rem
+    font-family: 'Ubuntu', sans-serif
+    font-weight: 300
+    line-height: 1.625rem
+    color: $dark
+    margin-bottom: 2.5rem
+  &__button
+    padding: 16px 59px
+    &-prev, &-next
+      width: 3.5rem
+      top: 90%
+      &::after
+        display: none
+    &-prev
+      margin-left: 3.8%
+      background: url(../img/news/prev.png) no-repeat center
+    &-next
+      background: url(../img/news/next.png) no-repeat center

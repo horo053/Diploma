@@ -790,6 +790,82 @@ img {
       margin: auto;
       padding: 16px 65px; }
 
+.news {
+  margin-bottom: 2rem;
+  background-color: #eefdea;
+  padding-top: 4.25rem;
+  padding-bottom: 5.75rem; }
+  .news__slider {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+    margin-left: 4.5%; }
+  .news__calendar {
+    background: #38393b url(../img/news/bg-news.jpg) no-repeat center;
+    width: 49.9375rem;
+    height: 28.75rem;
+    padding-top: 1.5rem; }
+  .news__data {
+    position: relative;
+    background: #ff5a3c;
+    color: #ffffff;
+    width: 3.5rem;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 0.7rem;
+    padding-bottom: 1rem;
+    margin-left: 1.4rem; }
+  .news__number {
+    font-size: 1.25rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0; }
+  .news__month {
+    font-size: 0.875rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0; }
+  .news__info {
+    position: relative;
+    width: 34.375rem;
+    height: 21.1875rem;
+    background: #ffffff;
+    padding-top: 0.8rem;
+    padding-left: 2.4375rem;
+    padding-right: 3rem;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 10px rgba(56, 57, 59, 0.05);
+    left: 50.5%;
+    margin-top: -17.7%;
+    margin-bottom: 1rem; }
+  .news__title {
+    font-size: 1.25rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    color: #1e1e1e;
+    margin-bottom: 1.5rem; }
+  .news__text {
+    font-size: 1rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    line-height: 1.625rem;
+    color: #1e1e1e;
+    margin-bottom: 2.5rem; }
+  .news__button {
+    padding: 16px 59px; }
+    .news__button-prev, .news__button-next {
+      width: 3.5rem;
+      top: 90%; }
+      .news__button-prev::after, .news__button-next::after {
+        display: none; }
+    .news__button-prev {
+      margin-left: 3.8%;
+      background: url(../img/news/prev.png) no-repeat center; }
+    .news__button-next {
+      background: url(../img/news/next.png) no-repeat center; }
+
 @media screen and (max-width: 1480px) {
   .link {
     display: none; } }
