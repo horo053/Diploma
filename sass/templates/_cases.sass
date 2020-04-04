@@ -1,0 +1,80 @@
+.cases
+  margin-top: 6.56rem
+  margin-bottom: 5rem
+  &__button
+    display: flex
+    margin-top: 1.5rem
+    &--primary
+      margin: auto
+      padding: 16px 65px
+  &__slide
+    display: flex
+    flex-wrap: wrap
+    margin: auto
+    margin-top: 2.2rem
+    margin-bottom: 1rem
+    padding-top: 1.45rem
+    padding-bottom: 1.5rem
+    width: 60.375rem
+    box-shadow: 0 0 20px 10px rgba($secondary, 0.05)
+    &-title
+      width: 100%
+      margin-bottom: 2.7rem
+      font-size: 1.375rem
+      font-family: 'Ubuntu', sans-serif
+      font-weight: 500
+      color: $secondary
+      text-align: center
+  &__block
+    margin-bottom: 2.25rem
+  &__text
+    margin: 0
+    margin-bottom: 0.5rem
+    font-size: 1.125rem
+    font-family: 'Ubuntu', sans-serif
+    font-weight: bold
+    color: $green
+  &__item
+    margin: 0
+    margin-bottom: 0.5rem
+    font-size: 1.125rem
+    font-family: 'Ubuntu', sans-serif
+    font-weight: 300
+    color: $secondary
+    &-services
+      &::before
+        content: ' '
+        display: inline-block
+        background-image: url(../img/cases/li-icon.png)
+        width: 11px
+        height: 15px
+        margin-right: 0.4rem
+  &__right
+    margin-top: -1.15rem
+    &-title
+      width: 23.5625rem
+      margin-bottom: 0.6rem
+      font-size: 1.125rem
+      font-family: 'Ubuntu', sans-serif
+      font-weight: 400
+      color: $secondary
+      line-height: 1.375rem
+    &-text
+      margin-top: 0
+      font-size: 0.875rem
+      font-family: 'Ubuntu', sans-serif
+      font-weight: 400
+      color: $gray
+    &-img
+      margin-left: -1.5rem
+  &__left
+    margin-left: 2.2rem
+    margin-right: 4.5rem
+.swiper
+  &-button
+    &-prev
+      &::after
+        color: $gray
+    &-next
+      &::after
+        color: $gray
