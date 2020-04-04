@@ -341,6 +341,22 @@ template {
     margin-top: 0;
     line-height: 1.375rem; }
 
+.input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #c9c8c8;
+  font-size: 1.125rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  color: #1e1e1e;
+  padding: 0.4rem;
+  padding-left: 0; }
+  .input::placeholder {
+    color: #1e1e1e; }
+
+.label {
+  display: block; }
+
 .container {
   max-width: 1280px;
   margin: auto; }
@@ -570,7 +586,7 @@ img {
 .services {
   background-image: url(../img/services/bg-services.png);
   background-repeat: no-repeat;
-  background-position: 50% 90%/cover;
+  background-position: 50% 90%;
   margin-top: 3.3rem;
   padding-bottom: 5rem; }
   .services__title {
@@ -607,6 +623,47 @@ img {
       color: #38393b;
       line-height: 1.583rem; }
 
+.cost {
+  display: flex;
+  justify-content: start;
+  background: #38393b url("../img/cost/bg-cost.jpg") no-repeat center/cover;
+  margin: auto;
+  margin-top: 7rem;
+  margin-bottom: 2rem;
+  height: 47.2rem; }
+  .cost__card {
+    background: #ffffff url("../img/cost/bg-form.jpg") no-repeat right;
+    width: 73.125rem;
+    padding-left: 3.125rem;
+    padding-top: 3.5rem;
+    padding-bottom: 5.5rem; }
+  .cost__form {
+    display: flex;
+    flex-direction: column;
+    width: 34.375rem; }
+  .cost__title {
+    text-align: center;
+    font-size: 1.875rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+    color: #38393b; }
+  .cost__label {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    color: #939292; }
+  .cost__input {
+    width: 100%; }
+    .cost__input-group {
+      margin-top: 1.1rem; }
+  .cost__button {
+    padding: 15px 42px;
+    margin-top: 2.5rem; }
+    .cost__button-block {
+      margin: auto; }
+
 @media screen and (max-width: 1480px) {
   .link {
     display: none; } }
@@ -629,7 +686,10 @@ img {
     margin-top: -8rem; }
 
   .card {
-    margin-top: -10rem; } }
+    margin-top: -10rem; }
+
+  .cost__form {
+    width: 25rem; } }
 @media screen and (max-width: 1155px) {
   .logo {
     margin-right: 5rem; }
@@ -667,7 +727,16 @@ img {
   .services__card {
     justify-content: space-around; }
     .services__card-item {
-      width: 40%; } }
+      width: 40%; }
+
+  .cost__card {
+    padding-left: 0;
+    width: 50rem;
+    background: transparent;
+    background-color: #ffffff; }
+  .cost__form {
+    width: 80%;
+    margin: auto; } }
 @media screen and (max-width: 760px) {
   .hero__text {
     max-width: 500px; }
@@ -687,7 +756,12 @@ img {
     width: 35%; }
 
   .title {
-    width: 40rem; } }
+    width: 40rem; }
+
+  .cost__card {
+    width: 40rem;
+    background: transparent;
+    background-color: #ffffff; } }
 @media screen and (max-width: 620px) {
   .contacts__button {
     display: none; }
@@ -747,7 +821,12 @@ img {
   .services__card {
     justify-content: center; }
     .services__card-item {
-      width: 70%; } }
+      width: 70%; }
+
+  .cost__card {
+    width: 30rem;
+    padding-top: 2.5rem;
+    padding-bottom: 3.5rem; } }
 @media screen and (max-width: 450px) {
   .video {
     height: 20rem; }
@@ -760,6 +839,14 @@ img {
       width: 70%; }
 
   .title {
-    width: 20rem; } }
+    width: 20rem; }
+
+  .cost__card {
+    width: 23rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem; }
+  .cost__button {
+    padding: 15px 55px;
+    margin-top: 2.5rem; } }
 
 /*# sourceMappingURL=style.css.map */

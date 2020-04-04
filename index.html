@@ -196,6 +196,43 @@
       <!-- /.container -->
     </section>
     <!-- /.services -->
+    <section class="cost">
+      <div class="container">
+        <div class="cost__card">
+          <form action="send.php" method="POST" class="form cost__form">
+            <h2 class="cost__title">Узнать стоимость</h2>
+            <!-- /.cost__title -->
+            <div class="cost__input-group">
+              <label for="user-name" class="label form__label cost__label">Имя</label>
+              <input type="text" name="userName" class="input form__input cost__input" id="cost-name" placeholder="Иван Иванов">
+            </div>
+            <!-- /.user-name -->
+            <div class="input-group cost__input-group cost__input-group--email">
+              <label for="user-email" class="label form__label cost__label">E-mail</label>
+              <input type="email" name="userEmail" class="input form__input cost__input" id="user-email" placeholder="ivanov@gmail.com">
+            </div>
+            <!-- /.user-email -->
+            <div class="input-group cost__input-group cost__input-group--url">
+              <label for="user-url" class="label form__label cost__label">Адрес веб-сайта</label>
+              <input type="url" name="userUrl" class="input form__input cost__input" id="user-url" placeholder="tatsianapavlenko.ru">
+            </div>
+            <!-- /.user-url -->
+            <div class="input-group cost__input-group cost__input-group--message">
+              <label for="user-message" class="label form__label cost__label">Сообщение</label>
+              <input type="message" name="userMessage" class="input form__input cost__input" id="user-message" placeholder="Введите Ваше сообщение">
+            </div>
+            <!-- /.user-message -->
+            <div class="cost__button-block">
+              <button class="button button--primary cost__button form__button">Узнать стоимость</button>
+            </div>
+          </form>
+          <!-- /.cost__form -->
+        </div>
+        <!-- /.cost__card -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.cost -->
   </main>
   <!-- /main --> 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
